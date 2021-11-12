@@ -1,0 +1,193 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1070px) {
+  .about__desc-left {
+    min-width: 0;
+    max-width: 100%;
+    width: 924px;
+    height: 642px;
+    margin-bottom: 31px;
+    margin-right: 0;
+    background-image: url("../img/about__left-bg_1024.jpg");
+  }
+}
+
+@media (max-width: 1024px) {
+  .main {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  /*HEADER*/
+
+  .header {
+    padding-left: 50px;
+    padding-right: 53px;
+    height: 70px;
+  }
+
+  .header__container {
+    margin-top: -0px;
+    height: 70px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__burger {
+    display: initial;
+  }
+
+  .header__burger:hover {
+    margin-top: -5px;
+    margin-left: -5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    outline: 1px solid #F7B045;
+  }
+
+  .header__burger:focus {
+    margin-top: -5px;
+    margin-left: -5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    outline: 1px solid #F7B045;
+  }
+  
+  .header__burger:active rect {
+    fill: #F7B045;
+  }
+
+  .header__burger-menu {
+    display: initial;
+  }
+
+  .header__link-logo {
+    height: 70px;
+  }
+
+  .header__img-logo {
+    margin-left: -2px;
+    padding-top: 10px;
+    width: 153.7px;
+    height: 47.7px;
+  }
+
+  .header__search {
+    margin-right: -7px;
+  }
+
+  .section-offset:not(:last-child) {
+  margin-bottom: 80px;  
+  }
+
+  /*HERO*/
+
+  /*.hero {
+    background-image: url("../img/hero-bg__1024.jpg");
+  }*/
+
+  .swiper {
+    width: 100%;
+    height: 668px !important;
+  }
+
+  .swiperslide__bg_1 {
+    background-image: url('../img/hero-bg__1024.jpg');
+  }
+
+  .hero__container {
+    padding-top: 104px;
+    padding-left: 77px;
+    margin-bottom: 60px;
+  }
+
+  .hero__title {
+    padding-top: 58.49px;
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 14px;
+  }
+
+  .hero__desc {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 59px;
+  }
+
+  .hero__btn {
+    padding-top: 25.53px;
+    padding-bottom: 24.83px; 
+    padding-left: 37px;
+    padding-right: 37px;
+  }
+
+    .about__list-title {
+    margin-bottom: -2px;
+  }
+
+  /*how-we-are-working*/
+
+  .how-we-are-working__list {
+    margin-bottom: 49px;
+  }
+
+  .how-we-are-working__desc {
+    background-position: right center;
+    background-size: 47.3% auto;
+    padding-right: 480px;
+  }
+
+  .how-we-are-working__desc_one {
+    background-image: url("../img/how-we-are-working__desc-bg_1024.jpg");
+  }
+
+  .how-we-are-working__detailed-desc {
+    max-width: 437px;
+    line-height: 200%;
+    margin-bottom: 23px;
+  }
+
+  .how-we-are-working__container {
+    margin-bottom: -10px;
+  }
+
+  .faq__link {
+    max-width: 756px;
+  }
+
+  /*FaQ*/
+
+  .faq__container {
+    padding-top: 13px;
+  }
+
+  .faq__title {
+    margin-bottom: 25px;
+  }
+
+  .faq__list-item {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 30px;
+  }
+
+  .faq {
+    margin-bottom: 80px;
+  }
+
+  /*footer*/
+
+  .footer {
+    padding-top: 49px;
+  }
+}
